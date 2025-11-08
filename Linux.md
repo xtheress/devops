@@ -18,9 +18,9 @@
    - [Что такое POSIX](#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-posix)
    - [Что такое KVM гипервизор](#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-kvm-%D0%B3%D0%B8%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D0%B7%D0%BE%D1%80)
       - [Что такое kvm(не гипервизор)? Как можно его использовать]
-   - [Что такое LVM](https://github.com/xtheress/devops/blob/clean/new/Linux.md#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-lvm)
-   - [Что такое DRP](https://github.com/xtheress/devops/blob/clean/new/Linux.md#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-drp)
-   - [Что такое IOPS? Как посмотреть нагрузку на диски?](https://github.com/xtheress/devops/blob/clean/new/Linux.md#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-iops-%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D1%82%D1%8C-%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D1%83-%D0%BD%D0%B0-%D0%B4%D0%B8%D1%81%D0%BA%D0%B8)
+   - [Что такое LVM](https://github.com/xtheress/devops/blob/clean/Linux.md#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-lvm)
+   - [Что такое DRP](https://github.com/xtheress/devops/blob/clean/Linux.md#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-drp)
+   - [Что такое IOPS? Как посмотреть нагрузку на диски?](https://github.com/xtheress/devops/blob/clean/Linux.md#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-iops-%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D1%82%D1%8C-%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D1%83-%D0%BD%D0%B0-%D0%B4%D0%B8%D1%81%D0%BA%D0%B8)
    - [Что такое ядро, initramfs, загрузчик?](#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%8F%D0%B4%D1%80%D0%BE-initramfs-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA)
    - [Что такое системные вызовы? Зачем они нужны и как они работают? Какие системные вызовы знаешь 5-10](#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D1%8B-%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BE%D0%BD%D0%B8-%D0%BD%D1%83%D0%B6%D0%BD%D1%8B-%D0%B8-%D0%BA%D0%B0%D0%BA-%D0%BE%D0%BD%D0%B8-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D1%8B-%D0%B7%D0%BD%D0%B0%D0%B5%D1%88%D1%8C-5-10)
    - [Что такое CPU pinning](#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-cpu-pinning)
