@@ -4,6 +4,7 @@
     - [В чем разница pull и push модели?](#%D0%B2-%D1%87%D0%B5%D0%BC-%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D0%B0-pull-%D0%B8-push-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8)
     - [В чем разница между модулем и плагином**](#%D0%B2-%D1%87%D0%B5%D0%BC-%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D0%B0-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D0%B5%D0%BC-%D0%B8-%D0%BF%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D0%BE%D0%BC)
     - [Для чего нужен ad hoc в ansible?](#%D0%B4%D0%BB%D1%8F-%D1%87%D0%B5%D0%B3%D0%BE-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-ad-hoc-%D0%B2-ansible)
+    - [Ansible Vault]()
 
 
 ## Опишите основные примитивы Ansible
@@ -63,3 +64,15 @@
     Это режим работы ансибл когда запрос к серверу выполняется напрямую из командной строки, без создания дополнительных файлов.
 
 ---
+
+## Ansible Vault
+
+- Ответ
+
+    Ansible Vault, который предназначен для шифрования конфиденциальных данных (паролей, ключей, токенов и других секретов), чтобы безопасно хранить их вместе с плейбуками и другими файлами инфраструктуры.
+
+    Как использовать Ansible Vault для секретов:
+    1. ansible-vault create secrets.yml
+    2. ansible-vault encrypt secrets.yml
+    3. ansible-vault edit secrets.yml
+    4. ansible-playbook playbook.yml --ask-vault-pass / ansible-playbook playbook.yml --vault-password-file ~/.vault_pass.txt
