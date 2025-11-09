@@ -14,7 +14,7 @@
     - [Как работает ICMP](#%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-icmp)
     - [Почему latency до 8.8.8.8 всегда низкий?](#%D0%BF%D0%BE%D1%87%D0%B5%D0%BC%D1%83-latency-%D0%B4%D0%BE-8888-%D0%B2%D1%81%D0%B5%D0%B3%D0%B4%D0%B0-%D0%BD%D0%B8%D0%B7%D0%BA%D0%B8%D0%B9)
     - [Что такое REST API и API](#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-rest-api-%D0%B8-api)
-    - [Как работает NAT, зачем он нужен?](#%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-nat-%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BE%D0%BD-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD)
+    - [Как работает NAT, зачем он нужен?](https://github.com/xtheress/devops/blob/clean/Network.md#%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D0%B5-%D0%B8-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5-ip-%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0-nat-network-address-translation)
         - [Типы NAT]
     - [Что такое VPN](https://github.com/xtheress/devops/blob/clean/Network.md#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-vpn)
     - [Все способы балансировки сетевого трафика](https://github.com/xtheress/devops/blob/clean/Network.md#%D0%B2%D1%81%D0%B5-%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D1%8B-%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8-%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE-%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0)
