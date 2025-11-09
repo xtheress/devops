@@ -2,18 +2,18 @@
     - [Чем SQL отличается от NoSQL - подходы, преимущества, кейсы их использования (реляционные и нереляционные)](https://github.com/xtheress/devops/blob/clean/DB_Kafka.md#%D1%87%D0%B5%D0%BC-sql-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B0%D0%B5%D1%82%D1%81%D1%8F-%D0%BE%D1%82-nosql--%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8B)
       - [Объясните принципы BASE и ACID, приведите примеры их применения]
     - [Что такое CAP-теорема? Какие trade-offs между консистентностью, доступностью и устойчивостью вы видели на практике?​](https://github.com/xtheress/devops/blob/clean/DB_Kafka.md#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-cap-%D1%82%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0-%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-trade-offs-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D0%BA%D0%BE%D0%BD%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D0%B8-%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D0%B2%D1%8B-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BB%D0%B8-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B5)
-    - [Какие виды индексов знаете и как их использовать для ускорения запросов?​]()
+    - [Какие виды индексов знаете и как их использовать для ускорения запросов?​](https://github.com/xtheress/devops/blob/clean/DB_Kafka.md#%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%B2%D0%B8%D0%B4%D1%8B-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%BE%D0%B2-%D0%B7%D0%BD%D0%B0%D0%B5%D1%82%D0%B5-%D0%B8-%D0%BA%D0%B0%D0%BA-%D0%B8%D1%85-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%B4%D0%BB%D1%8F-%D1%83%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%BE%D0%B2)
       - [Как вы находили и оптимизировали медленные запросы в PostgreSQL/MySQL?​]
-    - [Репликация и шардинг: сравните подходы, поясните их особенности и способы применения.​]()
+    - [Репликация и шардинг: сравните подходы, поясните их особенности и способы применения.​](https://github.com/xtheress/devops/blob/clean/DB_Kafka.md#%D1%80%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8-%D1%88%D0%B0%D1%80%D0%B4%D0%B8%D0%BD%D0%B3-%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D1%82%D0%B5-%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8B-%D0%BF%D0%BE%D1%8F%D1%81%D0%BD%D0%B8%D1%82%D0%B5-%D0%B8%D1%85-%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B8-%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D1%8B-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F)
     - [Что такое wal-файл и зачем он нужен?](#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-wal-%D1%84%D0%B0%D0%B9%D0%BB-%D0%B8-%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BE%D0%BD-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD)
     - [Как безопасно удалить или изменить миллион строк в базе данных?](#%D0%BA%D0%B0%D0%BA-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE-%D1%83%D0%B4%D0%B0%D0%BB%D0%B8%D1%82%D1%8C-%D0%B8%D0%BB%D0%B8-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D1%82%D1%8C-%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD-%D1%81%D1%82%D1%80%D0%BE%D0%BA-%D0%B2-%D0%B1%D0%B0%D0%B7%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
 
 
 - [Kafka](#Kafka)
-    - [Что такое Kafka и зачем оно нужно]()
+    - [Что такое Kafka и зачем оно нужно](https://github.com/xtheress/devops/blob/clean/DB_Kafka.md#%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-kafka-%D0%B8-%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BE%D0%BD%D0%BE-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE)
       - [Опишите архитектуру типового решения с Kafka: продюсеры, брокеры, консюмеры, потоковая обработка.​]
-    - [Какие параметры конфигурации важны при настройке кластера Kafka?​]()
-    - [Как мониторите Kafka: какие метрики, алерты, дашборды используете?​]()
+    - [Какие параметры конфигурации важны при настройке кластера Kafka?​](https://github.com/xtheress/devops/blob/clean/DB_Kafka.md#%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B-%D0%BF%D1%80%D0%B8-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B5-%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0-kafka)
+    - [Как мониторите Kafka: какие метрики, алерты, дашборды используете?​](https://github.com/xtheress/devops/blob/clean/DB_Kafka.md#%D0%BA%D0%B0%D0%BA-%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%82%D0%B5-kafka-%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA%D0%B8-%D0%B0%D0%BB%D0%B5%D1%80%D1%82%D1%8B-%D0%B4%D0%B0%D1%88%D0%B1%D0%BE%D1%80%D0%B4%D1%8B-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D1%82%D0%B5)
 
 
 ---
